@@ -11,6 +11,10 @@ app.get('/contact', (req, res) => {
     res.send('<h1>Cntact us</h1>')
 })
 
+app.get('/about', (req, res) => {
+    res.send('<h1>About us</h1>')
+})
+
 
 
 app.listen(8200, () => {
